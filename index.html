@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Viagem dos Sonhos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container-fluid p-2 bg-dark text-center">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Viagem dos Sonhos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Taxas</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Contato
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="bi bi-cart3"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions" class="carousel slide h-800">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="carousel/0.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nós éramos apenas sete</h5>
+                        <p>4</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Mas temos todos vocês agora</h5>
+                        <p>3</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Depois de sete invernos e primaveras</h5>
+                        <p>2</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nas pontas dos nossos dedos entrelaçados</h5>
+                        <p>1</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="carousel/4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Sim, chegamos no paraíso</h5>
+                        <p>0</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <br><br>
+    <section class="container-fluid bg-light text-center p-2">
+        <h2>Conheça os nossos pacotes</h2>
+        <p>
+            Lorem ipsum dolor sit amet
+        </p><br>
+        <a href="https://www.lipsum.com/">Lorem Ipsum</a>
+        <br><br>
+        <div class="figuras">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://projetoitaca.com.br/wp-content/uploads/2020/12/bts-1.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Bangtan Boys</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <a href="#" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber
+                                Mais</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <iframe src="https://www.youtube.com/embed/7UWBYJjuIL0?si=sPsDMLz2doMLjAl8"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                        <div class="card-body">
+                            <h5 class="card-title">We Are Bulletproof: The Eternal</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This card has even longer content than the first to show that equal
+                                height action.</p>
+                            <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal1">Canal
+                                Oficial</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 text-center">
+                        <img src="https://blog.trazy.com/wp-content/uploads/2020/09/bts-dynamite-thumb-scaled-1200x720.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Foto Dynamite</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <a href="https://www.youtube.com/watch?v=gdZLi9oWNZg&pp=ygUMZHluYW1pdGUgYnRz"
+                                class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal2">Ouvir
+                                Agora</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-body-secondary">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-secundary text-center p-2">
+        <h2>Taxas e Serviços</h2>
+        <p>Veja nossas taxa para serviços!</p>
+        <table border class="table table-dark table-striped table-hover table-bordered border-secondary">
+            <caption>Descrição dos serviços e dos seus respectivos valores</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th>SERVIÇOS</th>
+                    <th>VALORES</th>
+                </tr>
+            </thead class="table-group-divider">
+            <tbody>
+                <tr>
+                    <td>Reserva de Hotel</td>
+                    <td>R$150,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Passagens</td>
+                    <td>R$100,00</td>
+                </tr>
+                <tr>
+                    <td>Aluguel de Carros</td>
+                    <td>R$50,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Ingressos para Shows</td>
+                    <td>R$200,00</td>
+                </tr>
+                <tr>
+                    <td>Compra de Ingresso para Fan Meetings</td>
+                    <td>R$250,00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="container-fluid bg-secundary p-2">
+        <h2 class="text-center">Orçamento</h2>
+        <form method="GET" action="">
+            <fieldset>
+                <legend>Dados do Usuário</legend>
+                <div class="mb-3">
+                    <label class="form-label" for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome" id="nome">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">E-mail</label>
+                    <input type="email" class="form-control" name="email" id="email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="cidade">Cidade</label>
+                    <input type="text" class="form-control" name="cidade" id="cidade">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dataShow">Data do Show</label>
+                    <input type="date" class="form-control" name="dataShow" id="dataShow">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dataFanmeeting">Data do Fan Meeting</label>
+                    <input type="date" class="form-control" name="dataFanmeeting" id="dataFanmeeting">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dataIda">Data de Ida</label>
+                    <input type="date" class="form-control" name="dataIda" id="dataIda">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="dataVolta">Data de Volta</label>
+                    <input type="date" class="form-control" name="dataVolta" id="dataVolta">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="qntPessoas">Quantidade de Pessoas</label>
+                    <input type="number" class="form-control" name="qntPessoas" id="qntPessoas">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="senha">Senha</label>
+                    <input type="password" class="form-control" name="senha" id="senha">
+                </div>
+            </fieldset><br>
+            <fieldset>
+                <legend>Quais Serviços Deseja Contratar:</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hotel" value="Hotel" id="hotel">
+                    <label class="form-check-label" for="hotel">
+                        Reserva de Hotel
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagens" id="passagens">
+                    <label class="form-check-label" for="passagens">
+                        Compra de Passagens
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="carro" value="Carro" id="carro">
+                    <label class="form-check-label" for="carro">
+                        Aluguel de Carro
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="show" value="Show" id="show">
+                    <label class="form-check-label" for="carro">
+                        Compra de Ingresso do Show
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="fanmeeting" value="Fanmeeting"
+                        id="fanmeeting">
+                    <label class="form-check-label" for="carro">
+                        Compra de Ingresso do Fan Meeting
+                    </label>
+                </div>
+            </fieldset><br>
+            <fieldset>
+                <legend>Forma de Pagamento</legend>
+                <label>
+                    <input type="radio" name="formaPagamento" value="PIX">PIX
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de Crédito">Cartão de Crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cartão de Débito">Cartão de Débito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Cheque">Cheque
+                </label>
+            </fieldset><br>
+            <fieldset>
+                <legend>Prazo para Pagamento</legend>
+                <select name="prazoPagamento">
+                    <option value="aVista">Á Vista</option>
+                    <option value="duasVezes">2x sem juros</option>
+                    <option value="tresVezes">3x sem juros</option>
+                    <option value="dozeVezes" selected>12x com juros</option>
+                </select>
+            </fieldset><br>
+            <label>Comentário</label><br>
+            <textarea rows="5" name="comentario"></textarea><br><br>
+            <button class="btn btn-secondary">Salvar</button>
+        </form>
+    </section>
+    <br>
+    <footer class="container-fluid text-light bg-dark text-center p-2">© Todos os direitos reservados</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+<div class="modal fade" id="exampleModal0" tabindex="-1" aria-labelledby="exampleModalLabel0" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel0">Redirecionamento de Página</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você está sendo redirecionado à outra página, deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                <a type="button" class="btn btn-dark"
+                    href="https://www.youtube.com/watch?v=gdZLi9oWNZg&pp=ygUMZHluYW1pdGUgYnRz"> Ir para a outra
+                    página</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel1">Redirecionamento de Página</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você está sendo redirecionado à outra página, deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                <a type="button" class="btn btn-dark"
+                    href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ">Ir para a outra página</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel2">Redirecionamento de Página</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Você está sendo redirecionado à outra página, deseja continuar?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                <a href="https://www.youtube.com/watch?v=gdZLi9oWNZg&pp=ygUMZHluYW1pdGUgYnRz" type="button"
+                    class="btn btn-dark"> Ir para a outra página</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

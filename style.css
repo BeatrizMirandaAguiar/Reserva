@@ -1,0 +1,51 @@
+header{
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(66, 39, 91);
+}
+header p{
+    color:azure;
+    font-weight: 600;
+}
+h1{
+    font-size: 63px;
+    color:rgb(200, 233, 236);
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+nav li a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.videos{
+    text-align: center;
+}
+.figuras{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}
+.carousel-caption h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:rgb(118, 94, 120);
+    text-shadow: 2px 2px 2px black;
+}
+.carousel-caption p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(117, 64, 122);
+    text-shadow: 2px 2px 2px black;
+}
+#exempleModalLabel0,#exampleModalLabel1, #exempleModalLabel2{
+    color:black;
+}
